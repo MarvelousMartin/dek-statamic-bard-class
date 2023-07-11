@@ -1,0 +1,37 @@
+{
+    "name": "martinoak/statamic-bard-class",
+    "description": "A custom button for Bard in Statamic 4 to allow a span with a class to be added to selected text.",
+    "type": "statamic-addon",
+    "keywords": [
+        "statamic",
+        "bard"
+    ],
+    "autoload": {
+        "psr-4": {
+            "MarvelousMartin\\StatamicBardClass\\": "src"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marty Friedel"
+        },
+        {
+            "name": "Martin Dub"
+        }
+    ],
+    "require": {
+        "statamic/cms": "^4.0"
+    },
+    "extra": {
+        "statamic": {
+            "name": "DEK Statamic Bard Class",
+            "description": "Bard Class"
+        },
+        "laravel": {
+            "providers": [
+                "MarvelousMartin\\StatamicBardClass\\ServiceProvider"
+            ]
+        }
+    }
+}

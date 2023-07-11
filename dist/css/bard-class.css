@@ -1,0 +1,25 @@
+/* Class Type Styles */
+.bard-class {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.bard-class.warning {
+    color: #f91925;
+}
+
+.bard-class.done {
+    color: #27d508;
+}
+
+.bard-class.important {
+    color: #752f8b;
+}
+
+.bard-class.mute {
+    color: #777777;
+}
+
+.bard-class.interesting {
+    color: #ff7d0a;
+}
